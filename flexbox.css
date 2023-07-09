@@ -1,0 +1,74 @@
+.div_cabeçalho, .ul_cabeçalho, form{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10%;
+}
+
+.busca{
+    background: url(lupa.svg) no-repeat center right;
+    padding:5px 5px 5px 11px;
+    border: none;
+    width: 30px;
+    -webkit-transition:  all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.busca:focus{
+width: 200px;
+border-bottom: solid 1px #ffffff;
+outline: none;
+}
+
+.pesquisa{
+    opacity: 0;
+}
+
+input::placeholder {
+    color: #66acf7;
+  }
+
+input{
+ color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+.container_botao{
+    display: grid;
+    place-content: center;
+}
+
+.container_geral{
+    align-items: center;
+}
+
+
+.container_google{
+    display: flex;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.imagem_google{
+    padding-right: 10%;
+}
+
+.imagem_google_gmail{
+    padding-right: 5%;
+}
+
+.container_microsoft{
+    display:flex;
+    justify-content: space-around;
+}
+
+.container_botao_voltar{
+    display: grid;
+    place-content: center;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
